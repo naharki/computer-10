@@ -64,5 +64,11 @@ e. To input name of three person and check and display the longest name.
     end 
     
     sub name_check(n$)
-    
+    for i = 2 to 3 
+    input "Enter two name "; b$
+    if len(b$) > len(n$) then 
+    n$ = b$
+    end if 
+    next i 
+    print "The longest string is:"; n$
     end sub 
