@@ -1,0 +1,68 @@
+Class !0 modular programming by Naharki sujan : 
+
+
+a. to input item, quantity and price of item , then calculate amount. 
+        declare sub items_check(n$, p, q)
+        cls 
+        input "Enter name of the items "; n$
+        input "Enter qunatity of the items "; q
+        input "Enter price of the items"; p 
+        call items_check(n$, p, q)
+        end 
+
+        sub items_check(n$, p, q)
+        print "Total amount :"; n$, p*q
+        end sub 
+ 
+ b. To check wheather a voter is eliglible to cast vote or not according to the election system of nepal. 
+      declare sub cast_vote(age)
+      cls 
+      input "Please enter your age"; age
+      call cast_vote(age)
+      end 
+      
+      sub cast_vote(age)
+      if age >= 18 then 
+      print " you can vote"
+      else 
+      print "you cannot vote"
+      end if 
+      end sub 
+      
+ c. To calculate and display volume of sphere. [ volume of sphere = 4/3 pie*r^3]
+ 
+    declare sub volumer(r)
+    cls 
+    input "Enter the radius of sphere"; r
+    call volume(r)
+    end 
+    
+   sub volume(r)
+   v= (4/3)*3.14*r*r*r
+   print " Volume of sphere is "; r
+   end sub 
+   
+d. To calculate area of four walls of a room.
+    declare sub area(h, l , b)
+    cls
+     input "Enter height of walls"; h
+     input "Enter length of walls "; l
+     input " Enter breadth of walls"; b 
+     call area(h, l, b)
+   end 
+    
+    sub area(h, l, b)
+    a = 2*h*(l+b)
+    print " Area of four walls is: " ; a
+    end sub 
+    
+e. To input name of three person and check and display the longest name. 
+    declare sub name_check(n$)
+    cls 
+    input "Enter first name :"; n$
+    call name_check(n$)
+    end 
+    
+    sub name_check(n$)
+    
+    end sub 
