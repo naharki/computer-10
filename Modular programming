@@ -72,3 +72,25 @@ e. To input name of three person and check and display the longest name.
     next i 
     print "The longest string is:"; n$
     end sub 
+
+f. To check and print wheather the given number is palindrome or not.
+        declare sub check_palindrome(n)
+        cls 
+        input "enter any number "; n 
+        call check_palindrome(n)
+       end 
+       
+       sub check_palindrome(n)
+       x = n 
+       s = 0
+       while n <> 0 
+       r = n mode 10
+       s = s*10 + r
+       n = n\10
+       wend 
+       if x = s then 
+       print n; " is palindrome"
+       else
+       print n; " is not palindrome"
+       end if 
+       end sub 
